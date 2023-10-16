@@ -1,0 +1,10 @@
+dubbo:
+  cloud:
+    subscribed-services: dubbo-provider
+  application:
+    name: dubbo-comsumer
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: localhost:8848
